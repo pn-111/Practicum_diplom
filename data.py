@@ -1,0 +1,20 @@
+# заголовки для HTTP-запроса, указывающие на то, что тело запроса будет в формате JSON
+headers = {
+    "Content-Type": "application/json"
+}
+
+# данные пользователя для создания новой записи пользователя в системе
+# содержат имя, телефон и адрес пользователя
+order_body = {
+    "firstName": "Naruto",
+    "lastName": "Uchiha",
+    "address": "Konoha, 142 apt.",
+    "metroStation": 4,
+    "phone": "+78003553535",
+    "rentTime": 5,
+    "deliveryDate": "2026-10-10",
+    "comment": "Saske, come back to Konoha",
+    "color": [
+        "BLACK"
+    ]
+}
